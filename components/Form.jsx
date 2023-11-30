@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const Form = ({ type, post, setPost, submitting, setSubmitting }) => {
+const Form = ({ type, post, setPost, submitting, handleSubmitting }) => {
   return (
     <section className='w-full max-w-full flex-start flex-col'>
       <h1 className='head_text text-left'>
@@ -15,14 +15,14 @@ const Form = ({ type, post, setPost, submitting, setSubmitting }) => {
         imagination run wild with any AI power platform
       </p>
       <form
-        onSubmit={setSubmitting}
+        onSubmit={handleSubmitting}
         className='mt-10 w-full max-w-2x1 flex-col gap-7 glassmorphism'>
         <label>
           <span className='font-satoshi font-semibold text-base text-gray-700'>
             Your AI Prompt
           </span>
           <textarea
-            value={postMessage.prompt}
+            value={post.prompt}
             onChange={(e) => setPost({ ...post, prompt: e.target.value })}
             placeholder='Write your prompt here...'
             required
