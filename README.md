@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyecto Next14JS: Plataforma de Compartir Prompts de Inteligencia Artificial
+Este proyecto es un emocionante ejercicio fullstack que combina la potencia de Next.js con Server-Side Rendering (SSR), integrando también tecnologías como NextAuth, Node.js y MongoDB. Su propósito es crear una plataforma interactiva donde los usuarios pueden registrarse y compartir sus prompts preferidos para cualquier inteligencia artificial.
 
-## Getting Started
+## Características Destacadas
+SSR con Next.js: Explota las ventajas del renderizado en el lado del servidor para una experiencia más eficiente.
+NextAuth para Autenticación: Ofrece un sistema de autenticación seguro y personalizado.
+Node.js y MongoDB: Backend robusto y base de datos eficiente para almacenar prompts de manera segura.
+Funcionalidades Principales
+Registro de Usuarios: Permite a los usuarios crear cuentas para contribuir y disfrutar de la plataforma.
+Compartir Prompts: Facilita a los usuarios compartir sus prompts de inteligencia artificial.
+Filtrado y Búsqueda: Posibilita la exploración y búsqueda de prompts mediante hashtags o contenido en la página principal.
+Cómo Empezar
+Clona el Repositorio:
 
-First, run the development server:
+bash
+Copy code
+git clone https://github.com/tu-usuario/next14js-proyecto.git
+cd next14js-proyecto
+Instala Dependencias:
 
-```bash
+bash
+Copy code
+npm install
+Configuración de MongoDB:
+
+Configura tu conexión MongoDB en config/database.js.
+Inicia la Aplicación:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Contribuciones
+¡Contribuciones son bienvenidas! Si deseas colaborar, sigue las pautas de contribución en CONTRIBUTING.md.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Licencia
+Este proyecto está bajo la licencia MIT.
