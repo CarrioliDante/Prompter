@@ -23,7 +23,7 @@ npm install
 ```
 ### MongoDB Configuration:
 
-Configure your MongoDB connection in config/database.js.
+Configure your MongoDB connection in utils/database.js.
 
 ### Start the Application:
 
@@ -63,7 +63,7 @@ npm install
 
 ```
 ### Configuración de MongoDB:
-Configura tu conexión MongoDB en config/database.js.
+Configura tu conexión MongoDB en utils/database.js.
 ### Inicia la Aplicación:
   
 ```
