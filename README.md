@@ -1,6 +1,9 @@
 # Project Next14JS: Platform for Sharing Artificial Intelligence Prompts
 This project is an exciting fullstack exercise that combines the power of Next.js with Server-Side Rendering (SSR), integrating technologies such as NextAuth, Node.js, and MongoDB. Its purpose is to create an interactive platform where users can register and share their favorite prompts for any artificial intelligence.
 
+![image](https://github.com/CarrioliDante/Prompter/assets/111087318/0d6498e2-0527-4524-9e9f-b5a5c0fe1009)
+
+
 ## Key Features
 SSR with Next.js: Exploits the advantages of server-side rendering for a more efficient user experience.
 
