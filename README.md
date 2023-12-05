@@ -15,9 +15,9 @@ Clone the Repository:
 ```
 git clone https://github.com/your-username/next14js-project.git
 cd next14js-project
-Install Dependencies:
-```
 
+```
+### Install Dependencies:
 ```
 npm install
 ```
